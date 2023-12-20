@@ -1,0 +1,266 @@
+body{
+	background-color: #271a3d;
+}
+header{
+	background-color: #271a3d;
+	margin: 25px;
+	text-align: center;
+	padding-top: 5px;
+}
+#logo{
+	width: 200px;
+}
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #ef8fdf;
+}
+nav li {
+  text-shadow: 3px 3px 4px #271a3d;
+  display: inline-block;
+  font-family: 'Finger Paint';
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  background-color: #ef8fdf;
+}
+nav a:link, a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav a:hover {
+  color: #271a3d;
+  text-decoration: none;
+}
+#banner{
+	background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 25px;
+  width: 640;
+  height: 460px;
+  position: relative;
+}
+.welcomemessage{
+	font-family: 'Caveat Brush';
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	padding: 150px;
+	font-size: 75px;
+	font-style: italic;
+}
+
+div a:link{
+	background-color: #271a3d;
+  color: black;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  left: 43%;
+  bottom: 30%;
+  font-family: helvetica;
+}
+div a:hover {
+  color: #ef8fdf;
+  background-color: #ffffff;
+ }
+ h1{
+	font-family: 'Caveat Brush';
+	text-align: center;
+	color: white;
+	font-size: 55px;
+	font-style: italic;
+}
+#selfimage{
+	margin: 25px;
+	padding: 10px;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.container{
+	margin: 25px;
+	padding: 25px;
+	font-family: helvetica;
+	font-size: 20px;
+	background-color: #eddcfa;
+	color: #271a3d;
+	text-align: center;
+	border-radius: 6px;
+}
+
+.hobbyimg{
+	float: right;
+	margin-right: 25px;
+	margin-left: 30px;
+	border-radius: 50%;
+}
+.softwareimg{
+	float: left;
+	margin-right: 60px;
+	margin-left: 30px;
+	border-radius: 50%;
+}
+
+.secondcontainer{
+	border-radius: 6px;
+	margin: 25px;
+	padding: 25px;
+	font-family: helvetica;
+	font-size: 20px;
+	background-color: #eddcfa;
+	color: #271a3d;
+}
+
+a.one:link {
+	color:#0000ff;
+}
+a.one:visited {
+	color:#0000ff;
+}
+a.one:hover {
+	color:#ef8fdf;
+}
+
+* {
+   box-sizing: border-box;
+}
+.columnimg {
+   float: left;
+   width: 25%;
+   padding: 25px;
+}
+
+.columnimg img{
+	height: 310px;
+}
+.columnimg img:hover {
+  transform: scale(1.2);
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pdf{
+	display: flex;
+	justify-content: center;
+}
+
+.flex-container{
+	justify-content: center;
+	display: flex;
+}
+.contactimg{
+	float: left;
+	margin-left: 20px;
+	margin-right: 50px;
+  border-radius: 10px;
+}
+.thirdcontainer{
+	border-radius: 6px;
+		margin: 25px;
+		padding: 25px;
+	font-family: helvetica;
+	font-size: 20px;
+	background-color: #eddcfa;
+	color: #271a3d;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 15px 30px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 2px solid #271a3d;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #271a3d;
+  color: white;
+  padding: 15px 30px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h2{
+	font-family: helvetica;
+}
+label{
+	colour: #271a3d;
+	font-family: helvetica;
+}
+input[type=submit]:hover {
+  background-color: #ffffff;
+  color: #ef8fdf;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px 30px;
+  box-sizing: border-box;
+  border: 2px solid #271a3d;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  font-size: 15px;
+  resize: none;
+  font-family: helvetica;
+  color: gray;
+}
+.contactbackground {
+  border-radius: 6px;
+  background-color: #eddcfa;
+  padding: 25px;
+  margin: 25px;
+}
+footer{
+	margin: 25px;
+	padding: 25px;
+	text-align: center;
+	font-size: 18px;
+	font-family: helvetica;
+	color: #ffffff;
+	background-color: #ef8fdf;
+}
+@media screen and (max-width: 991px) {
+  .columnimg {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .columnimg {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  nav li {
+    width: 50%;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 650px) {
+  nav li {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+   .welcomemessage {
+    width: 50%;
+     font-size: 50px;
+   }
+}
+@media screen and (max-width: 650px) {
+   .welcomemessage {
+    width: 100%;
+  }
+}
